@@ -91,7 +91,7 @@ categories = ['Necessities', 'Discretionary', 'Savings']
 values = [necessities_total, discretionary_total, savings]
 
 st.markdown("**Monthly Paycheck Utilization**: Using the standard budgeting rule 50% Necessities / 30% Discretionary / 20% Savings")
-st.markdown("**Note**: Net income not spent will be considered part of your savingsd)
+st.markdown("**Note**: Net income not spent will be considered part of your savings")
 fig = px.pie(names=categories, values=values)
 
 st.plotly_chart(fig)
